@@ -30,30 +30,34 @@ body {
     margin: 20px 0;
     max-width: 400px;
 }
+.logo {
+    width: 150px;
+    height: auto;
+}
 .gradient-text { 
 background: linear-gradient(45deg, #f09433, #e6683c, #dc2743, #cc2366, #bc1888);  
     -webkit-background-clip: text;
     background-clip: text;
     -webkit-text-fill-color: transparent;
  }
- login-form {
+.login-form {
     flex: 1;
     display: flex;
     justify-content: center;
     align-items: center;
     border-left: 1px solid #dbdbdb;
- }
- .form-box {
+}
+.form-box {
     width: 100%;
     max-width: 350px;
     padding: 20px;
 }
- input {
+input {
    width: 100%;
-   padding:12px;
-   margin: bottom 8px;
+   padding: 12px;
+   margin-bottom: 8px;
    background-color: #fafafa;
-   border: 1px;
+   border: 1px solid #dbdbdb;
    border-radius: 8px;
 }
 .btn-login {
